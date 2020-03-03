@@ -135,12 +135,38 @@ body {
   height: 100%;
 }
 header {
-  background-color: pink;
+  padding: 2%;
+  background-color: #696969;
 }
-header h1 {
-  font-size: 25px;
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-header p {
-  border: 1px solid;
-  padding: 3%;
+@media (max-width: 500px) {
+  header nav {
+    justify-content: center;
+  }
+}
+header nav a {
+  color: white;
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: #D3D3D3;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.top-container img {
+  width: 30%;
+}
+.top-container img h1 {
+  font-family: 'Oxanium', cursive;
 }

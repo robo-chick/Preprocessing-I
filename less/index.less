@@ -56,18 +56,49 @@ table {
 html, body {
     height: 100%;
 }
+@main-color: #696969;
+@hover-color: #D3D3D3;
 
-@primary-color: pink;
 
 header {
-  background-color: @primary-color;
+	padding: 2%;
+	background-color: @main-color;
 
-  h1 {
-    font-size: 25px;
-  }
+	nav {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 
-  p {
-    border: 1px solid;
-    padding: 3%;
-  }
+		@media (max-width: 500px) {
+			justify-content: center;
+		}
+
+		a {
+			color: white;
+			margin: 1%;
+			padding: 2%;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: @hover-color;
+		}
+	}
 }
+
+.top-container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+
+	img {
+	  width: 30%;
+
+	  h1 {
+	    font-family: 'Oxanium', cursive;
+	  }
+	}
+}
+	

@@ -134,3 +134,13 @@ html,
 body {
   height: 100%;
 }
+header {
+  background-color: pink;
+}
+header h1 {
+  font-size: 25px;
+}
+header p {
+  border: 1px solid;
+  padding: 3%;
+}

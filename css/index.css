@@ -167,6 +167,9 @@ body {
   color: white;
   text-decoration: none;
 }
+.top-nav .right a:hover {
+  color: #808080;
+}
 @media (max-width: 500px) {
   .top-nav .right {
     flex-direction: column;
@@ -195,29 +198,51 @@ body {
 }
 .center-heading h2 {
   font-family: 'Oswald', sans-serif;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 .middle {
   display: flex;
 }
-.middle .middle-left {
+.middle .middle-center {
   display: flex;
   flex-direction: column;
-  width: 47%;
+  justify-content: center;
+  width: 70%;
   margin: 1% 4% 0 16%;
 }
-.middle .middle-left h2 {
+.middle .middle-center h2 {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 2%;
 }
-.middle .middle-left p {
+.middle .middle-center p {
   font-family: 'Nanum Gothic', sans-serif;
   line-height: 1.5rem;
 }
-.middle-right {
-  margin: 1% 0 0 6%;
+.middle-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3% 0 0 2%;
 }
-.middle-right h2 {
+table {
+  width: 40%;
+  text-align: center;
+  border: 1px solid #2F4F4F;
+}
+caption {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 2%;
+}
+tr {
+  border: 1px solid #2F4F4F;
+}
+tr td {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 3%;
+}
+.middle-bottom-left {
+  margin: 1% 4% 0 6%;
+}
+.middle-bottom-left h2 {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 2%;
 }
@@ -225,9 +250,15 @@ i.fab {
   color: #2F4F4F;
   font-size: 2rem;
 }
+i.fab:hover {
+  color: #808080;
+}
 i.fas {
   color: #2F4F4F;
   font-size: 2rem;
+}
+i.fas:hover {
+  color: #808080;
 }
 li {
   margin-top: 2%;
@@ -237,4 +268,7 @@ li a {
   font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   text-decoration: none;
+}
+li a:hover {
+  color: #808080;
 }

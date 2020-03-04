@@ -194,5 +194,47 @@ body {
   padding-bottom: 1%;
 }
 .center-heading h2 {
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 10%;
+}
+.middle {
+  display: flex;
+}
+.middle .middle-left {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin: 1% 4% 0 16%;
+}
+.middle .middle-left h2 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 2%;
+}
+.middle .middle-left p {
   font-family: 'Nanum Gothic', sans-serif;
+  line-height: 1.5rem;
+}
+.middle-right {
+  margin: 1% 0 0 6%;
+}
+.middle-right h2 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 2%;
+}
+i.fab {
+  color: #2F4F4F;
+  font-size: 2rem;
+}
+i.fas {
+  color: #2F4F4F;
+  font-size: 2rem;
+}
+li {
+  margin-top: 2%;
+}
+li a {
+  color: #2F4F4F;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
 }

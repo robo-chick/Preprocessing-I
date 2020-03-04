@@ -59,6 +59,17 @@ html, body {
 @main-color: #2F4F4F;
 @hover-color: #D3D3D3;
 
+.middle-h2() {
+	font-family: 'Oswald', sans-serif;
+	  margin-bottom: 2%;
+}
+
+.icons() {
+	color: @main-color;
+	font-size: 2rem;
+}
+
+
 .top-nav {
 	background-color: @main-color;
 
@@ -125,7 +136,55 @@ html, body {
 	}
 
 		h2 {
-		  font-family: 'Nanum Gothic', sans-serif;
+		 font-family: 'Oswald', sans-serif;
+		 padding-bottom: 10%;
 		}
+}
+
+.middle {
+	display: flex;
+
+	.middle-left {
+		display: flex;
+		flex-direction: column;
+		width: 47%;
+		margin: 1% 4% 0 16%;
+	
+		h2 {
+		 .middle-h2()
+		}
+	
+		p {
+			font-family: 'Nanum Gothic', sans-serif;
+			line-height: 1.5rem;
+		}
+	}	
+}
+
+.middle-right {
+	margin: 1% 0 0 6%;
+
+	h2 {
+	 .middle-h2()
+	}
+}
+
+i.fab {
+	.icons();
+}
+
+i.fas {
+	.icons();
+}
+
+li {
+	margin-top: 2%;
+
+	a {
+		color: @main-color;
+		font-family: 'Oswald', sans-serif;
+		font-size: 1rem;
+		text-decoration: none;
+	}
 }
 

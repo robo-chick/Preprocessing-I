@@ -272,3 +272,25 @@ li a {
 li a:hover {
   color: #808080;
 }
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  margin-bottom: 10%;
+}
+.bottom table {
+  width: 70%;
+  border: 1px solid #2F4F4F;
+  background-color: #DCDCDC;
+}
+.bottom table caption {
+  font-family: 'Oswald', sans-serif;
+}
+.bottom table th {
+  font-family: 'Oswald', sans-serif;
+  padding: 2%;
+}
+footer {
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+}
